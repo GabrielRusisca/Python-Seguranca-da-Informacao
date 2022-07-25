@@ -1,6 +1,6 @@
 import os, time
 
-with open('hosts.txt') as file:
+with open("códigos\hosts.txt") as file:
     dump = file.read()
     dump = dump.splitlines()
     for ip in dump:
@@ -8,4 +8,4 @@ with open('hosts.txt') as file:
         print('-' * 60)
         os.system(f'ping -n 2 {ip}')
         print('-' * 60)
-        time.sleep(1)
+        time.sleep(0.5)
