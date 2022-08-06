@@ -1,0 +1,3 @@
+Mensagem para ser comparada com um hash de outro arquivo, utilizando o código do comparador_de_Hashes.py
+
+Essa mensagem é a diferença
