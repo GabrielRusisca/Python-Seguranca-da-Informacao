@@ -22,9 +22,3 @@ print()
 print(f'O hash do arquivo {arquivo2} (em número hex) é: {repr(hash2.hexdigest())}')
 print('-'*30)
 
-c = 0
-while 1:
-    print(c)
-    c += 1
-    if c > 10000:
-        break
