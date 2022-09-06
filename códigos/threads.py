@@ -3,9 +3,9 @@ from time import sleep
 
 def carro(velocidade, piloto):
     trajeto = 0
-    while trajeto <= 100:
+    while trajeto < 100:
         trajeto += velocidade
-        sleep(0.25)
+        sleep(1)
         print(f'Carro: {piloto} e {trajeto}\n')
 
 
